@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TIGER WEB - Games, Apps and Settings">
+  <title>TIGER WEB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">TIGER <span>WEB</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="فتح القائمة" aria-expanded="false">
+      <i></i><i></i><i></i>
+    </button>
+  </header>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-title">TIGER WEB</div>
+    <button class="nav-item active" data-section="home">🏠 <span data-ar="الرئيسية" data-en="Home">الرئيسية</span></button>
+    <button class="nav-item" data-section="games">🎮 <span data-ar="الألعاب" data-en="Games">الألعاب</span></button>
+    <button class="nav-item" data-section="apps">📦 <span data-ar="Apps" data-en="Apps">Apps</span></button>
+    <button class="nav-item" data-section="settings">⚙️ <span data-ar="الإعدادات" data-en="Settings">الإعدادات</span></button>
+  </aside>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <p class="eyebrow" data-ar="مرحباً بك في" data-en="WELCOME TO">مرحباً بك في</p>
+      <h1>TIGER <span>WEB</span></h1>
+      <p class="hero-text" data-ar="موقعك الصغير للألعاب والتطبيقات والأدوات المجانية." data-en="Your small hub for games, apps and free tools.">موقعك الصغير للألعاب والتطبيقات والأدوات المجانية.</p>
+      <div class="hero-actions">
+        <button class="primary" data-go="games">🎮 <span data-ar="ابدأ اللعب" data-en="Play games">ابدأ اللعب</span></button>
+        <button class="secondary" data-go="apps">📦 <span data-ar="التطبيقات" data-en="Apps">التطبيقات</span></button>
+      </div>
+    </section>
+
+    <section class="section" id="games">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">TIGER WEB</p>
+          <h2 data-ar="الألعاب" data-en="Games">الألعاب</h2>
+        </div>
+        <span class="badge" data-ar="3 ألعاب" data-en="3 Games">3 ألعاب</span>
+      </div>
+
+      <div class="cards">
+        <article class="card game-card">
+          <div class="card-icon">🐍</div>
+          <h3 data-ar="الثعبان" data-en="Snake">الثعبان</h3>
+          <p data-ar="كلّ الطعام وكبّر الثعبان بدون ما تخبط." data-en="Eat the food and grow without crashing.">كلّ الطعام وكبّر الثعبان بدون ما تخبط.</p>
+          <button class="card-btn" data-game="snake" data-ar="العب الآن" data-en="Play now">العب الآن</button>
+        </article>
+
+        <article class="card game-card">
+          <div class="card-icon">⭕</div>
+          <h3 data-ar="إكس أو" data-en="Tic Tac Toe">إكس أو</h3>
+          <p data-ar="لعبة XO بسيطة ضد الكمبيوتر." data-en="Simple Tic Tac Toe against the computer.">لعبة XO بسيطة ضد الكمبيوتر.</p>
+          <button class="card-btn" data-game="ttt" data-ar="العب الآن" data-en="Play now">العب الآن</button>
+        </article>
+
+        <article class="card game-card">
+          <div class="card-icon">⚡</div>
+          <h3 data-ar="اضغط بسرعة" data-en="Click Rush">اضغط بسرعة</h3>
+          <p data-ar="عندك 10 ثواني. حاول تجيب أكبر عدد من الضغطات." data-en="You have 10 seconds. Get as many clicks as you can.">عندك 10 ثواني. حاول تجيب أكبر عدد من الضغطات.</p>
+          <button class="card-btn" data-game="clicker" data-ar="العب الآن" data-en="Play now">العب الآن</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="apps">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">TIGER WEB</p>
+          <h2 data-ar="Apps" data-en="Apps">Apps</h2>
+        </div>
+        <span class="badge" data-ar="مجانية وأقل من 100MB" data-en="Free & under 100MB">مجانية وأقل من 100MB</span>
+      </div>
+      <div class="cards">
+        <article class="card app-card">
+          <div class="card-icon">🎬</div>
+          <h3>VLC</h3>
+          <p data-ar="مشغل فيديو وموسيقى مجاني ومفتوح المصدر — حجم نسخة Windows حوالي 38MB." data-en="Free open-source media player — Windows version is about 38MB.">مشغل فيديو وموسيقى مجاني ومفتوح المصدر — حجم نسخة Windows حوالي 38MB.</p>
+          <a class="card-btn link-btn" href="https://www.videolan.org/vlc/" target="_blank" rel="noopener">تحميل</a>
+        </article>
+
+        <article class="card app-card">
+          <div class="card-icon">🗜️</div>
+          <h3>7-Zip</h3>
+          <p data-ar="برنامج ضغط وفك ضغط مجاني ومفتوح المصدر — مثبت Windows x64 حوالي 1.6MB." data-en="Free open-source archiver — Windows x64 installer is about 1.6MB.">برنامج ضغط وفك ضغط مجاني ومفتوح المصدر — مثبت Windows x64 حوالي 1.6MB.</p>
+          <a class="card-btn link-btn" href="https://www.7-zip.org/" target="_blank" rel="noopener">تحميل</a>
+        </article>
+
+        <article class="card app-card">
+          <div class="card-icon">🔎</div>
+          <h3>Everything</h3>
+          <p data-ar="بحث سريع عن الملفات في Windows — مثبت x64 حوالي 2MB." data-en="Fast file search for Windows — x64 installer is about 2MB.">بحث سريع عن الملفات في Windows — مثبت x64 حوالي 2MB.</p>
+          <a class="card-btn link-btn" href="https://www.voidtools.com/" target="_blank" rel="noopener">تحميل</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section settings-section" id="settings">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">TIGER WEB</p>
+          <h2 data-ar="الإعدادات" data-en="Settings">الإعدادات</h2>
+        </div>
+      </div>
+
+      <div class="settings-grid">
+        <div class="setting">
+          <h3 data-ar="لون الخلفية" data-en="Background color">لون الخلفية</h3>
+          <input type="color" id="bgColor" value="#07111f">
+        </div>
+        <div class="setting">
+          <h3 data-ar="لون الواجهة" data-en="Accent color">لون الواجهة</h3>
+          <input type="color" id="accentColor" value="#00e5ff">
+        </div>
+        <div class="setting">
+          <h3 data-ar="اللغة" data-en="Language">اللغة</h3>
+          <div class="lang-buttons">
+            <button id="arBtn" class="lang active">العربية</button>
+            <button id="enBtn" class="lang">English</button>
+          </div>
+        </div>
+        <button class="reset-btn" id="resetBtn" data-ar="إرجاع الإعدادات الافتراضية" data-en="Reset settings">إرجاع الإعدادات الافتراضية</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© <span id="year"></span> TIGER-dev-2026</div>
+    <div data-ar="جميع الحقوق محفوظة لدي TIGER-dev-2026" data-en="All rights reserved to TIGER-dev-2026">جميع الحقوق محفوظة لدي TIGER-dev-2026</div>
+  </footer>
+
+  <div class="modal" id="gameModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="close" id="closeModal">×</button>
+      <h2 id="gameTitle">Game</h2>
+      <div id="gameArea"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
